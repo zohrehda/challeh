@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challeh</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<p>welcome challeh</p>
+<form id="form">
+    <div class="container-drop" id="container11">
+    </div>
+    <input type="submit" value="submit">
+
+</form>
+
+<script src="src/js/main.js"></script>
+<script>
+
+    Challeh({
+         attachments: [
+            {
+                id:1,
+                url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ38o64k7JbkK1R89zaHxq4v6cUWRVNaJkbfigHwdYaTg&s',
+                name:'file name' ,
+            },
+             {
+                 id:2,
+                 url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ38o64k7JbkK1R89zaHxq4v6cUWRVNaJkbfigHwdYaTg&s',
+                 name:'file name 1' ,
+             }
+        ],
+        //   maxFileSize: 12 //bytes
+        container: '#container11',
+        inputName: "attachments",
+        multiple: false
+
+    });
+
+</script>
+
+</body>
+</html>
+
+
+
+
+

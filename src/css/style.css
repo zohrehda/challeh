@@ -1,0 +1,97 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.challeh {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+
+    border-radius: 20px;
+    color: white;
+    /*font: bold 24px/200px arial;*/
+    min-height: 240px;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px dotted #151313;
+    align-items: center;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.challeh :hover {
+    cursor: pointer;
+}
+.challeh-outer{
+    margin:auto 300px;
+}
+.challeh-outer .challeh-input {
+    opacity: 0;
+    display: none;
+}
+.challeh .challeh-img-block {
+    position: relative;
+    max-width: 33.333333%;
+    width: 120px;
+    flex: 0 0 25%;
+    height: 153px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.challeh .challeh-img-block .challeh-cover {
+    opacity: 0;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+    min-width: 100%;
+    max-width: 100%;
+    /*  padding: 50px 0;*/
+    margin: 50px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+    color: rgba(0, 0, 0, .9);
+    line-height: 150%;
+}
+
+.challeh .challeh-img-block .challeh-cover-outer {
+    position: relative;
+}
+
+.challeh .challeh-img-block .challeh-img {
+    border-radius: 23px;
+    transition: all 0.5s ease;
+    cursor: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.challeh .challeh-img-block, .challeh .challeh-img-block:hover .challeh-cover {
+    transition: all 0.5s ease;
+}
+
+.challeh .challeh-img-block:hover .challeh-img {
+    opacity: 0.5;
+}
+
+.challeh .challeh-img-block:hover .challeh-cover {
+    opacity: 1;
+
+}
+
+.challeh .challeh-img-block .challeh-caption {
+    color: #000000;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+.challeh .challeh-img-block .challeh-caption span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
