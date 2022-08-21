@@ -20,6 +20,10 @@ one route to post a form with files and test-based inputs.
 - possibility to download selected files
 - possibility to remove files
 
+<p align="center"> 
+<img src="./screenshots/example.png" width="70%" style="border-radius: 5px">
+</p>
+
 ## Getting Started
 
 ### Installing
@@ -58,6 +62,9 @@ named `removed-attachment` . the id of file to delete by clicking on remove butt
 to this input. then this input is passed to server and the at server-side you can handle
 to delete these files with related id from database or disk.
 the elements of array are required to have `id`, `url`, `name` properties.
+<p align="center"> 
+<img src="./screenshots/request.png" width="50%" style="border-radius: 5px">
+</p>
 
 ```javascript
     Challeh({
@@ -100,4 +107,5 @@ if you need to set the file input as array you can accomplish this using `multip
 ## Author
 
 make me happy by any feedbacks and comments
+
 * **Zohreh Daeian**  - [ZohrehDa](https://github.com/zohrehda)
